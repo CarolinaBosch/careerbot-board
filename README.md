@@ -10,9 +10,9 @@ CareerBot never applies to a role without explicit per-role approval.
 
 | Path | Purpose |
 | --- | --- |
-| `build.py` | Generates `site/index.html` from the two data inputs |
+| `build.py` | Generates `docs/index.html` from the two data inputs |
 | `applications.json` | Snapshot of Supabase `public.job_applications` (source of truth) |
-| `site/index.html` | The published page |
+| `docs/index.html` | The published page |
 
 The numbered shortlist is read from `../current-shortlist.md` in the Obsidian vault
 (`Carolina Personal/Career/`) and is not committed to this repo.

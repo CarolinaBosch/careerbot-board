@@ -18,7 +18,7 @@ import datetime
 HERE = pathlib.Path(__file__).resolve().parent
 SHORTLIST = HERE.parent / "current-shortlist.md"
 APPS = HERE / "applications.json"
-OUT = HERE / "site" / "index.html"
+OUT = HERE / "docs" / "index.html"
 
 
 def parse_shortlist(text):
